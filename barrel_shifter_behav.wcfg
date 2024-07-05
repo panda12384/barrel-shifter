@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="barrel_shifter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="barrel_shifter" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,999 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,010 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,008 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/barrel_shifter/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/barrel_shifter/shift" type="array">
+      <obj_property name="ElementShortName">shift[2:0]</obj_property>
+      <obj_property name="ObjectShortName">shift[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/barrel_shifter/left_right" type="logic">
+      <obj_property name="ElementShortName">left_right</obj_property>
+      <obj_property name="ObjectShortName">left_right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/barrel_shifter/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
